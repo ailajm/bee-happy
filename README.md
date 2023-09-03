@@ -22,21 +22,25 @@ BeeHappy is a mobile application designed to offer daily affirmations to its use
 ### Installation
 
 1. Clone the repository
+
    ```bash
    git clone https://github.com/yourusername/BeeHappy.git
    ```
 
 2. Navigate to the project folder
+
    ```bash
    cd BeeHappy
    ```
 
 3. Install dependencies
+
    ```bash
    npm install
    ```
 
 4. Run the application
+
    ```bash
    npx react-native run-android
    # or
@@ -59,4 +63,3 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Future Work
 
 For the details about what's coming next for this project, see the [ROADMAP.md](ROADMAP.md).
-
