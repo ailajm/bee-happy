@@ -58,3 +58,8 @@ target 'beeHappy' do
     __apply_Xcode_12_5_M1_post_install_workaround(installer)
   end
 end
+
+# Next Steps:
+# Consider adding version locking for your pods to ensure stability across different development environments.
+# Clarify where min_ios_version_supported is defined or define it explicitly in the Podfile.
+# Add more comments for complex or less self-explanatory parts like flipper_config.
