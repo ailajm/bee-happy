@@ -24,7 +24,6 @@ ios/.xcode.env.local
 
 # Android/IntelliJ
 #
-build/
 .idea
 .gradle
 local.properties
@@ -80,7 +79,7 @@ yarn-error.log
 *.code-workspace
 
 # React Native Packager cache
-/node_modules/react-native/packager-cache/
+/node_modules/react-native/packager-cache/ 
 /node_modules/react-native/node_modules/jest-haste-map/.haste_map
 
 # Environment variables
