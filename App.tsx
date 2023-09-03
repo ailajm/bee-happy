@@ -1,7 +1,7 @@
 // Imports
-import React, { useState } from 'react';
-import { View, Text, Button, StyleSheet } from 'react-native';
-import { Affirmations } from './Affirmation';
+import React, {useState} from 'react';
+import {View, Text, Button, StyleSheet} from 'react-native';
+import {Affirmations} from './Affirmation';
 
 const App = () => {
   // Test affirmations
@@ -11,7 +11,7 @@ const App = () => {
   const [currentAffirmation, setCurrentAffirmation] = useState<string>('');
 
   // Function to fetch a new affirmation
-  const getNewAffirmation = () => {
+  const getNewAffirmation = (): void => {
     const randomIndex = Math.floor(Math.random() * affirmations.length);
     setCurrentAffirmation(affirmations[randomIndex]);
   };
